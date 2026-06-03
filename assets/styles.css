@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Caveat:wght@400..700&display=swap');
+
+:root {
+  --paper: #fcfcf7;
+  --pencil: #2d2d2d;
+  --ink-red: #1a1a1a;
+  --ink-blue: #005f73;
+  --tape: rgba(220, 210, 160, 0.5);
+  --grid: rgba(0, 0, 0, 0.04);
+}
+
+body {
+  font-family: 'Kalam', cursive;
+  color: var(--pencil);
+  background-color: #fcfcf7;
+  margin: 0;
+  padding: 0;
+}
+
+.notebook-container {
+  background-color: var(--paper);
+  background-image:
+    linear-gradient(var(--grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size: 25px 25px;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 1.5rem;
+  min-height: 100vh;
+  padding: 2rem;
+  overflow: hidden;
+}
+
+.marginalia {
+  font-family: 'Caveat', cursive;
+  position: absolute;
+  pointer-events: none;
+  z-index: 1;
+  white-space: nowrap;
+  user-select: none;
+}
+
+.tape {
+  background: var(--tape);
+  height: 24px;
+  width: 90px;
+  position: absolute;
+  transform: rotate(-2deg);
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+  z-index: 20;
+}
+
+.torn-separator {
+  margin: 0.25rem 0;
+  height: 1px;
+  position: relative;
+}
+
+.hand-drawn-border {
+  border: 2px solid var(--pencil);
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+  opacity: 0.5;
+}
+
+.highlight {
+  background: rgba(254, 240, 138, 0.4);
+  padding: 0 4px;
+}
+
+html { scrollbar-width: none; }
+body::-webkit-scrollbar { display: none; }
