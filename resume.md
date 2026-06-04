@@ -1,4 +1,4 @@
-# Dade Daud Yusup
+# D. Daud Yusup
 
 **Software Engineer**
 
