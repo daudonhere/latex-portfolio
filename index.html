@@ -553,6 +553,9 @@
 </div>
 
   <script src="assets/script.js"></script>
-  <script defer src="/_vercel/insights/script.js"></script>
+  <script type="module">
+    import { inject } from "https://esm.sh/@vercel/analytics";
+    inject();
+  </script>
 </body>
 </html>
