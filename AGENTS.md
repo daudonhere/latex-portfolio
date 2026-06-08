@@ -42,9 +42,6 @@ assets/
 - Canonical domain in meta tags and sitemap
 - Deploy via Vercel dashboard or CLI (no config files in repo)
 
-## Known issues (to fix)
-
-1. **Image placeholders** - `image-1.jpeg` replaced with placehold.co URLs; replace with actual project screenshots
 
 ## Verification
 

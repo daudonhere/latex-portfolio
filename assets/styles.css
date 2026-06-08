@@ -29,16 +29,6 @@ body {
   padding: 1.5rem;
   min-height: 100vh;
   padding: 2rem;
-
-}
-
-.marginalia {
-  font-family: 'Caveat', cursive;
-  position: absolute;
-  pointer-events: none;
-  z-index: 1;
-  white-space: nowrap;
-  user-select: none;
 }
 
 .tape {
@@ -60,17 +50,6 @@ body {
 .hand-drawn-border {
   border: 2px solid var(--pencil);
   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-}
-
-.strikethrough {
-  text-decoration: line-through;
-  text-decoration-thickness: 2px;
-  opacity: 0.5;
-}
-
-.highlight {
-  background: rgba(254, 240, 138, 0.4);
-  padding: 0 4px;
 }
 
 html { scrollbar-width: none; }
