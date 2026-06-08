@@ -38,7 +38,7 @@ assets/
 
 ## Deployment
 
-- Hosted on **Vercel** at `https://dadedaud.vercel.app`
+- Hosted on **Vercel** at `https://im-using.vercel.app`
 - Canonical domain in meta tags and sitemap
 - Deploy via Vercel dashboard or CLI (no config files in repo)
 
